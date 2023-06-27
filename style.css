@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+.chicas{
+    background-image: url(chicas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.creditos {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+}
+
+#mi-imagen{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    transform: translateX(100vh);
+}
+
+.fondo{
+    background-image: url(fondo4.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.campo-batalla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5vh solid red;
+    padding: 0.5vh;
+    border-radius: 2vh;
+    right: 10;
+}
+
+.caja-batalla{
+    margin: 25px;
+}
+
+.text-mensajes{
+    font-size: 45px;
+}
+
+.img-batalla{
+    border-radius: 50%;
+    width: 20vh;
+    height: 15vh;
+}
+
+.btn-ataques{
+    width: 20vh;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.btn-ataques:hover{
+    border: 2px solid red;
+    cursor: pointer;
+    margin: 18px;
+}
+
+.bombon{
+    position: absolute;
+    left: 0;
+    height: 50vh;
+    top: 0%;
+    justify-content: center;
+    align-items: center;
+    /*transform: translateX(-25vh);*/
+}
+
+.Mojo_Jojo{
+    position: absolute;
+    right: 0;
+    height: 50vh;
+    top: 0%;
+}
+
+.btn-defensa {
+    display: hidden;
+    width: 20vh;
+    border-radius: 50%;
+    margin: 20px;
+}
+.invisible {
+    display: none;
+}
+.contenedor {
+    position: absolute;
+    top: 70%; 
+    left: 30%; /* Ajusta la posición horizontal según tus necesidades */
+    transform: translateX(-25%); 
+    height: 2vh;
+    width: 30%;
+}
+.vida {
+    position: absolute;
+    top: 70%; 
+    left: 30%; /* Ajusta la posición horizontal según tus necesidades */
+    transform: translateX(-100%); 
+    height: 2vh;
+    background-color: rgb(240, 0, 248);
+    width: 100%;
+}
+.contenedor2 {
+    position: absolute;
+    top: 70%; /* Coloca el ataque debajo de Mojo jojo */
+    left: 100%; /* Ajusta la posición horizontal según tus necesidades */
+    transform: translateX(-105%); /* Centra horizontalmente el ataque */
+    height: 2vh;
+    width: 30%;
+    border: 2;
+}
+.vida2 {
+    position: absolute;
+    top: 70%; /* Coloca el ataque debajo de Mojo jojo */
+    left: 100%; /* Ajusta la posición horizontal según tus necesidades */
+    transform: translateX(-100%); /* Centra horizontalmente el ataque */
+    height: 2vh;
+    background-color: rgb(240, 0, 248);
+    width: 100%;
+}
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Comencemos la batalla</title>
+    </head>
+    <body class="fondo">
+        <h1>Comencemos la batalla</h1>
+        <div id="campo-batalla" class="campo-batalla"><!--Contiene la parte del rectangulo rojo donde aparece con que se ataca vs con que se defiende-->
+            <div id="img-ataque-jugador" class="caja-batala"><!--<img class="img-batalla" src="rosa.jpg" alt="">--></div>
+            <div class="caja-batalla"><p class="text-mensajes">VS</p></div>
+            <div id="img-ataque-pc" class="caja-batalla"><!--<img class="img-batalla" src="corazon.jpg" alt="">--></div>
+        </div>
+        <div>
+            <p id="msj-batalla" class="text-mensajes"> </p><!--donde aparece si se gano se perdio o se empato-->
+        </div>
+        <h2 id="mensajesAtaDe"></h2>
+        <div class="contenedor">
+            <div class="vida"></div>
+        </div>
+        <div><!--contiene los botones de ataques y defensas-->
+            <img class="bombon" src="bombon.jpg" alt="">
+            <img id="btn-corazon" class="btn-ataques" src="corazon.jpg" alt="">
+            <img id="btn-rosa" class="btn-ataques" src="rosa.jpg" alt="">
+            <img id="btn-fuego" class="btn-ataques" src="fuego.jpg" alt="">
+            <img class="Mojo_Jojo" src="Mojo_Jojo.jpg" alt="">
+        </div>
+        <div class="contenedor2">
+            <div class="vida2"></div>
+        </div>
+        <div><!--contiene los botones de ataques y defensas-->
+            <img class="bombon" src="bombon.jpg" alt="">
+            <img id="defensa1" class="btn-defensa" src="corazon.jpg" alt="">
+            <img id="defensa2" class="btn-defensa" src="rosa.jpg" alt="">
+            <img id="defensa3" class="btn-defensa" src="fuego.jpg" alt="">
+            <img class="Mojo_Jojo" src="Mojo_Jojo.jpg" alt="">
+        </div>
+        <script src="juego.js"></script>
+    </body>
+</html>
